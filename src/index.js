@@ -45,19 +45,6 @@ function showCountryList(countriesArray) {
   countryMarkup(countriesArray);
 }
 
-// function showCountryList(countriesArray) {
-//   if (countriesArray.length > 10) {
-//     clearPage();
-//     showMessage(infoType, infoMessage);
-//   } else if (countriesArray.length >= 2) {
-//     clearPage();
-//     countriesMarkup(countriesArray);
-//   } else if (countriesArray.length === 1) {
-//     clearPage();
-//     countryMarkup(countriesArray);
-//   }
-// }
-
 function someError() {
   showMessage(failureType, failureMessage);
   clearPage();
